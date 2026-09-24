@@ -7,9 +7,9 @@ manifest that names them.
 For each family: `pio run -e <family>`, then the bootloader, partition table,
 OTA selector and application merged at their offsets into one
 `flash-image.bin` (the ESP8266 is one image already). Then `manifest.json`,
-schema 2, with this project's revision key -- `esp32_rig_example_sha`, the
-commit the build resolved to -- which is what a run is named by and what the
-rig holds a bundle to. The rig re-hashes every file before it flashes.
+schema 2, with the commit the build resolved to under `git_sha` -- the
+revision key a rig expects unless a project names another -- which is what a
+run is named by and what the rig holds a bundle to. The rig re-hashes every file before it flashes.
 
 Needs `platformio` and `esptool` on the path (`python -m pip install
 platformio esptool`). About a hundred lines, and yours to change.
@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REVISION_KEY = "esp32_rig_example_sha"
+REVISION_KEY = "git_sha"
 PRODUCER = "esp32-rig-example"
 
 # Silicon facts, the same as every producer's: the esptool chip name, the
