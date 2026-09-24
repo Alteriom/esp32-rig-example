@@ -1,0 +1,36 @@
+# The suite against the rig's simulator: no board, no radio, but every test
+# collected and run, so a broken fixture or a typo is found here and not
+# forty minutes into a run on a rig. The rig's two packages come from a rig
+# release; pin the one your rig runs.
+name: Suite
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  RIG_RELEASE: "1.0.169"
+jobs:
+  sim:
+    name: The suite, simulated
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the rig's packages
+        run: |
+          set -euo pipefail
+          base="https://github.com/Alteriom/esp32-rig/releases/download/v$RIG_RELEASE"
+          python -m pip install --quiet \
+            "$base/alteriom_hil_core-$RIG_RELEASE-py3-none-any.whl" \
+            "$base/alteriom_hil-$RIG_RELEASE-py3-none-any.whl"
+      - name: Run it against the simulator
+        env:
+          ALTERIOM_HIL_MODE: sim
+          ALTERIOM_HIL_SIM_BOARDS: "2"
+        run: python -m pytest tests -q -p no:cacheprovider
