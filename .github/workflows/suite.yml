@@ -11,7 +11,7 @@ on:
 permissions:
   contents: read
 env:
-  RIG_RELEASE: "1.0.169"
+  RIG_RELEASE: "1.0.179"
 jobs:
   sim:
     name: The suite, simulated
