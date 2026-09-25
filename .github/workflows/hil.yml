@@ -33,7 +33,7 @@ jobs:
       - run: python -m pip install --quiet platformio esptool
       - run: python scripts/build_bundle.py --out hil-artifacts
       - name: Say what was built
-        run: python -c "import json; m = json.load(open('hil-artifacts/manifest.json')); print(m['esp32_rig_example_sha'], sorted(m['targets']))"
+        run: python -c "import json; m = json.load(open('hil-artifacts/manifest.json')); print(m['git_sha'], sorted(m['targets']))"
       - uses: actions/upload-artifact@v4
         with:
           name: hil-artifacts          # the artifact name the project has on the rig
