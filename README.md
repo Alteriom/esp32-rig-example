@@ -1,5 +1,12 @@
 # esp32-rig-example
 
+[![HIL](https://github.com/Alteriom/esp32-rig-example/actions/workflows/hil.yml/badge.svg)](https://github.com/Alteriom/esp32-rig-example/actions/workflows/hil.yml)
+[![Suite](https://github.com/Alteriom/esp32-rig-example/actions/workflows/suite.yml/badge.svg)](https://github.com/Alteriom/esp32-rig-example/actions/workflows/suite.yml)
+[![Runs against rig](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2FAlteriom%2Fesp32-rig-example%2Fmain%2F.github%2Fworkflows%2Fsuite.yml&query=%24.env.RIG_RELEASE&label=runs%20against%20rig)](https://github.com/Alteriom/esp32-rig/releases)
+[![Families](https://img.shields.io/badge/families-esp32%20%C2%B7%20c3%20%C2%B7%20s3%20%C2%B7%20esp8266-6b8)](platformio.ini)
+[![Ships with the rig](https://img.shields.io/badge/ships%20with%20the%20rig-Rig%20example-6b8)](https://alteriom.github.io/esp32-rig/projects/)
+[![License](https://img.shields.io/github/license/Alteriom/esp32-rig-example)](LICENSE)
+
 The smallest project an [Alteriom HIL rig](https://alteriom.github.io/esp32-rig/)
 can run: a firmware that answers the rig, a suite of three tests, and the
 workflow that builds the bundle the rig flashes. Fork it and replace `sum`
