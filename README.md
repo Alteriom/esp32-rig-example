@@ -21,7 +21,7 @@ tests/                       pytest, using the rig's `bank` fixture; one row per
 2. **Settings → Projects → Add project**, paste this repository's URL,
    **Look it up**, **Add**. The defaults are this project's: suite in
    `tests`, workflow `.github/workflows/hil.yml`, artifact `hil-artifacts`,
-   revision key `git_sha`. (A rig from release 1.0.177 on ships this project
+   revision key `git_sha`. (A rig from release 1.0.178 on ships this project
    already, under **Rig example**: skip to step 3.)
 3. On the project's page, **Get firmware from GitHub**. The rig takes the
    newest bundle this repository's HIL workflow built.
