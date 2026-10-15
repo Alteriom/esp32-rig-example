@@ -1,0 +1,534 @@
+{
+  "workspace_root": "",
+  "schema_version": 2,
+  "access": "workspace",
+  "entrypoint": "AGENTS.md",
+  "runtimes": [
+    "claude_code",
+    "codex_cli"
+  ],
+  "projects": [
+    "esp32-rig-example"
+  ],
+  "nodes": [
+    {
+      "id": "AGENTS.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L0",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "CLAUDE.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L0",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "doc-.github-copilot-instructions.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/copilot-instructions.md"
+      ]
+    },
+    {
+      "id": "doc-README.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "01-fix-CLAUDE.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L1",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/01-fix/CLAUDE.md"
+      ]
+    },
+    {
+      "id": "01-fix-CONTEXT.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L1",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/01-fix/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "01-fix-stages-01_reproduce-CONTEXT.md",
+      "revision": 1,
+      "kind": "stage",
+      "layer": "L2",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/01-fix/stages/01_reproduce/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "01-fix-stages-02_fix-CONTEXT.md",
+      "revision": 1,
+      "kind": "stage",
+      "layer": "L2",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/01-fix/stages/02_fix/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "01-fix-stages-03_verify-CONTEXT.md",
+      "revision": 1,
+      "kind": "stage",
+      "layer": "L2",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/01-fix/stages/03_verify/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "02-rig-release-CLAUDE.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L1",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/02-rig-release/CLAUDE.md"
+      ]
+    },
+    {
+      "id": "02-rig-release-CONTEXT.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L1",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/02-rig-release/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "02-rig-release-stages-01_check-CONTEXT.md",
+      "revision": 1,
+      "kind": "stage",
+      "layer": "L2",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/02-rig-release/stages/01_check/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "02-rig-release-stages-02_move-CONTEXT.md",
+      "revision": 1,
+      "kind": "stage",
+      "layer": "L2",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/02-rig-release/stages/02_move/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "shared-CONTEXT.md",
+      "revision": 1,
+      "kind": "route",
+      "layer": "L1",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/_shared/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "shared-architecture.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/_shared/architecture.md"
+      ],
+      "evidence": [
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/hil.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/suite.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "README.md",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "platformio.ini",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "scripts/build_bundle.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "src/main.cpp",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/conftest.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/test_it_answers.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        }
+      ]
+    },
+    {
+      "id": "shared-build-and-test.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/_shared/build-and-test.md"
+      ],
+      "evidence": [
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/hil.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/icm-check.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/suite.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "README.md",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "scripts/build_bundle.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/conftest.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/test_it_answers.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        }
+      ]
+    },
+    {
+      "id": "shared-documents.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/_shared/documents.md"
+      ],
+      "evidence": [
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/hil.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/suite.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "README.md",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "scripts/build_bundle.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "src/main.cpp",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/conftest.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        }
+      ]
+    },
+    {
+      "id": "shared-rules.md",
+      "revision": 1,
+      "kind": "fact",
+      "layer": "L3",
+      "state": "accepted",
+      "project_id": "esp32-rig-example",
+      "verified_at": "2026-10-15",
+      "review_after": "2027-01-13",
+      "files": [
+        ".github/icm/_shared/rules.md"
+      ],
+      "evidence": [
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/hil.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": ".github/workflows/suite.yml",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "README.md",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "scripts/build_bundle.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "src/main.cpp",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/conftest.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        },
+        {
+          "repo": "Alteriom/esp32-rig-example",
+          "path": "tests/test_it_answers.py",
+          "commit": "b2bbfc6d683b7aa0763ed8110670c6c81c523d37"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "form": "umbrella",
+      "root": "",
+      "pipelines": [
+        ".github/icm/01-fix",
+        ".github/icm/02-rig-release"
+      ],
+      "unit": "run"
+    },
+    {
+      "form": "pipeline",
+      "root": ".github/icm/01-fix",
+      "unit": "run"
+    },
+    {
+      "form": "pipeline",
+      "root": ".github/icm/02-rig-release",
+      "unit": "run"
+    }
+  ],
+  "stages": {
+    "fix-reproduce": {
+      "order": 1,
+      "contract": ".github/icm/01-fix/stages/01_reproduce/CONTEXT.md",
+      "inputs": {
+        "working": [],
+        "reference": [
+          ".github/icm/_shared/architecture.md",
+          ".github/icm/_shared/build-and-test.md"
+        ]
+      },
+      "do_not_load": [
+        ".github/icm/02-rig-release/"
+      ],
+      "outputs": [
+        ".github/icm/01-fix/stages/01_reproduce/output/reproduction.md"
+      ],
+      "human_check": "A person runs the command, or reads the evidence, and confirms it fails for the reported reason and that the cause is in this repository.",
+      "required": [
+        "01-fix-stages-01_reproduce-CONTEXT.md"
+      ]
+    },
+    "fix-fix": {
+      "order": 2,
+      "contract": ".github/icm/01-fix/stages/02_fix/CONTEXT.md",
+      "inputs": {
+        "working": [
+          ".github/icm/01-fix/stages/01_reproduce/output/reproduction.md"
+        ],
+        "reference": [
+          ".github/icm/_shared/rules.md"
+        ]
+      },
+      "do_not_load": [
+        ".github/icm/02-rig-release/"
+      ],
+      "outputs": [
+        ".github/icm/01-fix/stages/02_fix/output/change.md"
+      ],
+      "human_check": "A person reads the diff beside the reproduction: it removes the cause, stays small enough to copy, and leaves the rig's defaults alone.",
+      "required": [
+        "01-fix-stages-02_fix-CONTEXT.md"
+      ],
+      "optional": [
+        "shared-build-and-test.md"
+      ]
+    },
+    "fix-verify": {
+      "order": 3,
+      "contract": ".github/icm/01-fix/stages/03_verify/CONTEXT.md",
+      "inputs": {
+        "working": [
+          ".github/icm/01-fix/stages/02_fix/output/change.md"
+        ],
+        "reference": [
+          ".github/icm/_shared/build-and-test.md"
+        ]
+      },
+      "do_not_load": [
+        ".github/icm/02-rig-release/"
+      ],
+      "outputs": [
+        ".github/icm/01-fix/stages/03_verify/output/pull-request.md"
+      ],
+      "human_check": "A person reads `pull-request.md` and the `HIL` and `Suite` results and says whether to open it; the reviewer merges, knowing every rig's built-in example follows `main`.",
+      "required": [
+        "01-fix-stages-03_verify-CONTEXT.md"
+      ],
+      "optional": [
+        "shared-documents.md"
+      ]
+    },
+    "rig-release-check": {
+      "order": 1,
+      "contract": ".github/icm/02-rig-release/stages/01_check/CONTEXT.md",
+      "inputs": {
+        "working": [],
+        "reference": [
+          ".github/icm/_shared/build-and-test.md",
+          ".github/icm/_shared/rules.md"
+        ]
+      },
+      "do_not_load": [
+        ".github/icm/01-fix/"
+      ],
+      "outputs": [
+        ".github/icm/02-rig-release/stages/01_check/output/check.md"
+      ],
+      "human_check": "A person approves the release to move to, or decides not to move.",
+      "required": [
+        "02-rig-release-stages-01_check-CONTEXT.md"
+      ]
+    },
+    "rig-release-move": {
+      "order": 2,
+      "contract": ".github/icm/02-rig-release/stages/02_move/CONTEXT.md",
+      "inputs": {
+        "working": [
+          ".github/icm/02-rig-release/stages/01_check/output/check.md"
+        ],
+        "reference": [
+          ".github/icm/_shared/rules.md"
+        ]
+      },
+      "do_not_load": [
+        ".github/icm/01-fix/"
+      ],
+      "outputs": [
+        ".github/icm/02-rig-release/stages/02_move/output/move.md"
+      ],
+      "human_check": "A person reads `move.md` and the `Suite` result and merges, or says why not.",
+      "required": [
+        "02-rig-release-stages-02_move-CONTEXT.md"
+      ]
+    }
+  }
+}
